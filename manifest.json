@@ -1,0 +1,30 @@
+{
+    "name":  "hu-internet",
+    "version":  "2.0",
+    "target":  [
+                   "honda_3ya",
+                   "20251205"
+               ],
+    "requires":  [
+                     "Windows PowerShell 5.1+",
+                     "ADB",
+                     "root via su"
+                 ],
+    "system_partition_changes":  false,
+    "dm_verity_touched":  false,
+    "reboot_required":  true,
+    "snapshot":  {
+                     "path":  "artifacts/enable-YYYYMMDD-HHMMSS/snapshot",
+                     "format":  1,
+                     "created_by":  "Enable-HuInternet.ps1 -Apply"
+                 },
+    "files":  {
+                  "README.md":  "733681f2cfb5de6387465b2a0304b0efd4b22e2ce522b8b27de74e22b0cf58c1",
+                  "Enable-HuInternet.ps1":  "eb53bb066889d24b40455cb525a9ca353b4a86952d79babeb5732ef8ad183989",
+                  "Verify-HuInternet.ps1":  "ec0dbb9bdd110cd5c0906f510259b8360cabc852d92897f3fca551577bd81c32",
+                  "Rollback-HuInternet.ps1":  "b945581c209a2d41b009af492ec086ce77b28747bcc836f91d4100dea3f555d8",
+                  "tools\\ethernet-config\\classes.dex":  "af7972cb2c59a2452e2fe27993924885c13a3a2f3af0b0f7462f42917dbf3e5f",
+                  "tools\\ethernet-config\\EthernetConfig.java":  "14ebcd990637bc2cc517f9f35ee1509f8db0efda7911e8d1e35344c03c4be16e",
+                  "tools\\ethernet-config\\README.md":  "edcd2a0f0276cf0097866037963919b4483b05f11e77c3b37405df90ada60a55"
+              }
+}

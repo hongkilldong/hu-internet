@@ -1,0 +1,6 @@
+artifacts/
+*.log
+*.7z
+*.zip
+Thumbs.db
+.DS_Store
